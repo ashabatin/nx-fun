@@ -26,24 +26,44 @@
   "fileMap": {
     "nonProjectFiles": [
       {
+        "file": ".gitignore",
+        "hash": "2718660089057214962"
+      },
+      {
+        "file": ".nx/nxw.js",
+        "hash": "11254603345854076312"
+      },
+      {
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
+      },
+      {
         "file": ".prettierrc",
         "hash": "16267754514737964994"
       },
       {
-        "file": "package.json",
-        "hash": "7585252288438324207"
+        "file": "LICENSE",
+        "hash": "2730044833103709355"
       },
       {
-        "file": "package-lock.json",
-        "hash": "4903337569218184358"
+        "file": "README.md",
+        "hash": "15139720088026227415"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "3462096019013144053"
       },
       {
         "file": "jest.config.ts",
         "hash": "3494843969422251966"
       },
       {
-        "file": ".gitignore",
-        "hash": "2718660089057214962"
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "nx",
+        "hash": "17165975525224888679"
       },
       {
         "file": "nx.bat",
@@ -54,83 +74,19 @@
         "hash": "9441661864013947640"
       },
       {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
+        "file": "package-lock.json",
+        "hash": "4903337569218184358"
       },
       {
-        "file": ".nx/nxw.js",
-        "hash": "11254603345854076312"
-      },
-      {
-        "file": "nx",
-        "hash": "17165975525224888679"
+        "file": "package.json",
+        "hash": "7585252288438324207"
       },
       {
         "file": "tsconfig.base.json",
         "hash": "1482229072207006877"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "3462096019013144053"
-      },
-      {
-        "file": "README.md",
-        "hash": "11933321368682903910"
-      },
-      {
-        "file": "LICENSE",
-        "hash": "2730044833103709355"
       }
     ],
     "projectFileMap": {
-      "shell-e2e": [
-        {
-          "file": "apps/shell-e2e/cypress.config.ts",
-          "hash": "6228050532970795955",
-          "deps": [
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/shell-e2e/eslint.config.mjs",
-          "hash": "7267301145493616340",
-          "deps": [
-            "npm:eslint-plugin-cypress"
-          ]
-        },
-        {
-          "file": "apps/shell-e2e/project.json",
-          "hash": "6267872936494361199"
-        },
-        {
-          "file": "apps/shell-e2e/src/e2e/app.cy.ts",
-          "hash": "16670233316167578766"
-        },
-        {
-          "file": "apps/shell-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "apps/shell-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/shell-e2e/src/support/commands.ts",
-          "hash": "6408592624158157338"
-        },
-        {
-          "file": "apps/shell-e2e/src/support/e2e.ts",
-          "hash": "8994818607425373831"
-        },
-        {
-          "file": "apps/shell-e2e/tsconfig.json",
-          "hash": "4332380883180617610"
-        }
-      ],
       "shell": [
         {
           "file": "apps/shell/eslint.config.mjs",
@@ -252,47 +208,47 @@
           ]
         }
       ],
-      "fun_ng-e2e": [
+      "shell-e2e": [
         {
-          "file": "apps/fun_ng-e2e/cypress.config.ts",
-          "hash": "7472636643848360419",
+          "file": "apps/shell-e2e/cypress.config.ts",
+          "hash": "6228050532970795955",
           "deps": [
             "npm:cypress"
           ]
         },
         {
-          "file": "apps/fun_ng-e2e/eslint.config.mjs",
+          "file": "apps/shell-e2e/eslint.config.mjs",
           "hash": "7267301145493616340",
           "deps": [
             "npm:eslint-plugin-cypress"
           ]
         },
         {
-          "file": "apps/fun_ng-e2e/project.json",
-          "hash": "9529426496137592037"
+          "file": "apps/shell-e2e/project.json",
+          "hash": "6267872936494361199"
         },
         {
-          "file": "apps/fun_ng-e2e/src/e2e/app.cy.ts",
-          "hash": "8433009302161582533"
+          "file": "apps/shell-e2e/src/e2e/app.cy.ts",
+          "hash": "16670233316167578766"
         },
         {
-          "file": "apps/fun_ng-e2e/src/fixtures/example.json",
+          "file": "apps/shell-e2e/src/fixtures/example.json",
           "hash": "11785586596216172004"
         },
         {
-          "file": "apps/fun_ng-e2e/src/support/app.po.ts",
+          "file": "apps/shell-e2e/src/support/app.po.ts",
           "hash": "11157016311132186162"
         },
         {
-          "file": "apps/fun_ng-e2e/src/support/commands.ts",
+          "file": "apps/shell-e2e/src/support/commands.ts",
           "hash": "6408592624158157338"
         },
         {
-          "file": "apps/fun_ng-e2e/src/support/e2e.ts",
+          "file": "apps/shell-e2e/src/support/e2e.ts",
           "hash": "8994818607425373831"
         },
         {
-          "file": "apps/fun_ng-e2e/tsconfig.json",
+          "file": "apps/shell-e2e/tsconfig.json",
           "hash": "4332380883180617610"
         }
       ],
@@ -416,6 +372,50 @@
           "deps": [
             "npm:@nx/module-federation"
           ]
+        }
+      ],
+      "fun_ng-e2e": [
+        {
+          "file": "apps/fun_ng-e2e/cypress.config.ts",
+          "hash": "7472636643848360419",
+          "deps": [
+            "npm:cypress"
+          ]
+        },
+        {
+          "file": "apps/fun_ng-e2e/eslint.config.mjs",
+          "hash": "7267301145493616340",
+          "deps": [
+            "npm:eslint-plugin-cypress"
+          ]
+        },
+        {
+          "file": "apps/fun_ng-e2e/project.json",
+          "hash": "9529426496137592037"
+        },
+        {
+          "file": "apps/fun_ng-e2e/src/e2e/app.cy.ts",
+          "hash": "8433009302161582533"
+        },
+        {
+          "file": "apps/fun_ng-e2e/src/fixtures/example.json",
+          "hash": "11785586596216172004"
+        },
+        {
+          "file": "apps/fun_ng-e2e/src/support/app.po.ts",
+          "hash": "11157016311132186162"
+        },
+        {
+          "file": "apps/fun_ng-e2e/src/support/commands.ts",
+          "hash": "6408592624158157338"
+        },
+        {
+          "file": "apps/fun_ng-e2e/src/support/e2e.ts",
+          "hash": "8994818607425373831"
+        },
+        {
+          "file": "apps/fun_ng-e2e/tsconfig.json",
+          "hash": "4332380883180617610"
         }
       ]
     }
