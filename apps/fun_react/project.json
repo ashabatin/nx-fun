@@ -1,0 +1,88 @@
+{
+  "name": "fun_react",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "sourceRoot": "apps/fun_react/src",
+  "projectType": "application",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/rspack:rspack",
+      "outputs": ["{options.outputPath}"],
+      "defaultConfiguration": "production",
+      "options": {
+        "outputPath": "dist/apps/fun_react",
+        "index": "apps/fun_react/src/index.html",
+        "baseHref": "/",
+        "main": "apps/fun_react/src/main.ts",
+        "tsConfig": "apps/fun_react/tsconfig.app.json",
+        "assets": [
+          "apps/fun_react/src/favicon.ico",
+          "apps/fun_react/src/assets"
+        ],
+        "rspackConfig": "apps/fun_react/rspack.config.ts",
+        "styles": ["apps/fun_react/src/styles.scss"],
+        "scripts": [],
+        "configurations": {
+          "development": {
+            "mode": "development"
+          },
+          "production": {
+            "mode": "production",
+            "optimization": true,
+            "sourceMap": false,
+            "outputHashing": "all",
+            "namedChunks": false,
+            "extractLicenses": true,
+            "vendorChunk": false
+          }
+        },
+        "target": "web"
+      },
+      "configurations": {
+        "production": {
+          "rspackConfig": "apps/fun_react/rspack.config.prod.ts"
+        }
+      }
+    },
+    "serve": {
+      "executor": "@nx/rspack:module-federation-dev-server",
+      "defaultConfiguration": "development",
+      "options": {
+        "buildTarget": "fun_react:build",
+        "hmr": true,
+        "port": 4202
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "fun_react:build:development"
+        },
+        "production": {
+          "buildTarget": "fun_react:build:production",
+          "hmr": false
+        }
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/rspack:module-federation-static-server",
+      "defaultConfiguration": "production",
+      "options": {
+        "serveTarget": "fun_react:serve"
+      },
+      "configurations": {
+        "development": {
+          "serveTarget": "fun_react:serve:development"
+        },
+        "production": {
+          "serveTarget": "fun_react:serve:production"
+        }
+      }
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/fun_react/jest.config.ts"
+      }
+    }
+  }
+}

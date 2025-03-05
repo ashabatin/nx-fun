@@ -15,7 +15,8 @@
     "skipDefaultLibCheck": true,
     "baseUrl": ".",
     "paths": {
-      "fun_ng/Routes": ["apps/fun_ng/src/app/remote-entry/entry.routes.ts"]
+      "fun_ng/Routes": ["apps/fun_ng/src/app/remote-entry/entry.routes.ts"],
+      "fun_react/Module": ["apps/fun_react/src/remote-entry.ts"]
     }
   },
   "exclude": ["node_modules", "tmp"]
