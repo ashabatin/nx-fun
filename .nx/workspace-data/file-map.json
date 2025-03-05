@@ -30,60 +30,60 @@
         "hash": "16267754514737964994"
       },
       {
-        "file": "nx.json",
-        "hash": "9441661864013947640"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "3462096019013144053"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "1482229072207006877"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": "nx.bat",
-        "hash": "16119536321561623970"
+        "file": "package.json",
+        "hash": "7585252288438324207"
       },
       {
         "file": "package-lock.json",
         "hash": "4903337569218184358"
       },
       {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "nx",
-        "hash": "17165975525224888679"
+        "file": "jest.config.ts",
+        "hash": "3494843969422251966"
       },
       {
         "file": ".gitignore",
         "hash": "2718660089057214962"
       },
       {
-        "file": "README.md",
-        "hash": "11933321368682903910"
+        "file": "nx.bat",
+        "hash": "16119536321561623970"
       },
       {
-        "file": "package.json",
-        "hash": "16866462751881574313"
+        "file": "nx.json",
+        "hash": "9441661864013947640"
       },
       {
-        "file": "LICENSE",
-        "hash": "2730044833103709355"
+        "file": ".prettierignore",
+        "hash": "5407418692668764289"
       },
       {
         "file": ".nx/nxw.js",
         "hash": "11254603345854076312"
+      },
+      {
+        "file": "nx",
+        "hash": "17165975525224888679"
+      },
+      {
+        "file": "tsconfig.base.json",
+        "hash": "1482229072207006877"
+      },
+      {
+        "file": "jest.preset.js",
+        "hash": "9430166341120122740"
+      },
+      {
+        "file": "eslint.config.mjs",
+        "hash": "3462096019013144053"
+      },
+      {
+        "file": "README.md",
+        "hash": "11933321368682903910"
+      },
+      {
+        "file": "LICENSE",
+        "hash": "2730044833103709355"
       }
     ],
     "projectFileMap": {
@@ -169,7 +169,11 @@
         },
         {
           "file": "apps/shell/src/app/app.component.ts",
-          "hash": "11603065914201385412"
+          "hash": "12542923452755063738",
+          "deps": [
+            "npm:@angular/core",
+            "npm:@angular/router"
+          ]
         },
         {
           "file": "apps/shell/src/app/app.config.ts",

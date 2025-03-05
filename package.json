@@ -1055,6 +1055,7 @@
     "@typescript-eslint/utils": "^8.19.0"
   },
   "scripts": {
+    "start": "nx serve shell --devRemotes=fun_ng",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
