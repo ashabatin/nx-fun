@@ -4,6 +4,14 @@
   "description": "Just for Fun and Experiments",
   "main": "index.js",
   "dependencies": {
+    "@angular/animations": "~19.1.0",
+    "@angular/common": "~19.1.0",
+    "@angular/compiler": "~19.1.0",
+    "@angular/core": "~19.1.0",
+    "@angular/forms": "~19.1.0",
+    "@angular/platform-browser": "~19.1.0",
+    "@angular/platform-browser-dynamic": "~19.1.0",
+    "@angular/router": "~19.1.0",
     "abab": "^2.0.6",
     "abbrev": "^3.0.0",
     "abort-controller": "^3.0.0",
@@ -1018,12 +1026,33 @@
     "yn": "^3.1.1",
     "yocto-queue": "^1.1.1",
     "yoctocolors-cjs": "^2.1.2",
-    "zone.js": "^0.15.0"
+    "zone.js": "^0.15.0",
+    "@nx/angular": "^20.4.6"
   },
   "devDependencies": {
+    "@angular-devkit/build-angular": "~19.1.0",
     "@angular-devkit/core": "~19.1.0",
-    "@nx/angular": "^20.4.6",
-    "@nx/react": "^20.4.6"
+    "@angular-devkit/schematics": "~19.1.0",
+    "@angular/cli": "~19.1.0",
+    "@angular/compiler-cli": "~19.1.0",
+    "@angular/language-service": "~19.1.0",
+    "@eslint/js": "^9.8.0",
+    "@module-federation/enhanced": "^0.8.8",
+    "@nx/eslint": "20.4.6",
+    "@nx/eslint-plugin": "20.4.6",
+    "@nx/jest": "20.4.6",
+    "@nx/js": "20.4.6",
+    "@nx/module-federation": "20.4.6",
+    "@nx/react": "^20.4.6",
+    "@nx/web": "20.4.6",
+    "@nx/webpack": "20.4.6",
+    "@schematics/angular": "~19.1.0",
+    "@swc-node/register": "~1.9.1",
+    "@swc/core": "~1.5.7",
+    "@swc/helpers": "~0.5.11",
+    "@types/jest": "^29.5.12",
+    "@types/node": "18.16.9",
+    "@typescript-eslint/utils": "^8.19.0"
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
