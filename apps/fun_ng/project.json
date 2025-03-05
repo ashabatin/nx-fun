@@ -1,0 +1,111 @@
+{
+  "name": "fun_ng",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "prefix": "ng-mf",
+  "sourceRoot": "apps/fun_ng/src",
+  "tags": [],
+  "targets": {
+    "build": {
+      "executor": "@nx/angular:webpack-browser",
+      "outputs": ["{options.outputPath}"],
+      "options": {
+        "outputPath": "dist/apps/fun_ng",
+        "index": "apps/fun_ng/src/index.html",
+        "main": "apps/fun_ng/src/main.ts",
+        "polyfills": ["zone.js"],
+        "tsConfig": "apps/fun_ng/tsconfig.app.json",
+        "inlineStyleLanguage": "scss",
+        "assets": [
+          {
+            "glob": "**/*",
+            "input": "apps/fun_ng/public"
+          }
+        ],
+        "styles": ["apps/fun_ng/src/styles.scss"],
+        "scripts": [],
+        "customWebpackConfig": {
+          "path": "apps/fun_ng/webpack.config.ts"
+        }
+      },
+      "configurations": {
+        "production": {
+          "budgets": [
+            {
+              "type": "initial",
+              "maximumWarning": "500kb",
+              "maximumError": "1mb"
+            },
+            {
+              "type": "anyComponentStyle",
+              "maximumWarning": "4kb",
+              "maximumError": "8kb"
+            }
+          ],
+          "outputHashing": "all",
+          "customWebpackConfig": {
+            "path": "apps/fun_ng/webpack.prod.config.ts"
+          }
+        },
+        "development": {
+          "buildOptimizer": false,
+          "optimization": false,
+          "vendorChunk": true,
+          "extractLicenses": false,
+          "sourceMap": true,
+          "namedChunks": true
+        }
+      },
+      "defaultConfiguration": "production"
+    },
+    "serve": {
+      "executor": "@nx/angular:dev-server",
+      "options": {
+        "port": 4201,
+        "publicHost": "http://localhost:4201"
+      },
+      "configurations": {
+        "production": {
+          "buildTarget": "fun_ng:build:production"
+        },
+        "development": {
+          "buildTarget": "fun_ng:build:development"
+        }
+      },
+      "defaultConfiguration": "development"
+    },
+    "extract-i18n": {
+      "executor": "@angular-devkit/build-angular:extract-i18n",
+      "options": {
+        "buildTarget": "fun_ng:build"
+      }
+    },
+    "lint": {
+      "executor": "@nx/eslint:lint"
+    },
+    "test": {
+      "executor": "@nx/jest:jest",
+      "outputs": ["{workspaceRoot}/coverage/{projectRoot}"],
+      "options": {
+        "jestConfig": "apps/fun_ng/jest.config.ts"
+      }
+    },
+    "serve-static": {
+      "executor": "@nx/web:file-server",
+      "defaultConfiguration": "production",
+      "options": {
+        "buildTarget": "fun_ng:build",
+        "port": 4201,
+        "watch": false
+      },
+      "configurations": {
+        "development": {
+          "buildTarget": "fun_ng:build:development"
+        },
+        "production": {
+          "buildTarget": "fun_ng:build:production"
+        }
+      }
+    }
+  }
+}

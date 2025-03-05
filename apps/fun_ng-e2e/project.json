@@ -1,0 +1,10 @@
+{
+  "name": "fun_ng-e2e",
+  "$schema": "../../node_modules/nx/schemas/project-schema.json",
+  "projectType": "application",
+  "sourceRoot": "apps/fun_ng-e2e/src",
+  "tags": [],
+  "implicitDependencies": ["fun_ng"],
+  "// targets": "to see all targets run: nx show project fun_ng-e2e --web",
+  "targets": {}
+}

@@ -1,4 +1,380 @@
 {
+  "apps/fun_ng": {
+    "root": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.main": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.inlineStyleLanguage": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.scripts": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.customWebpackConfig": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.customWebpackConfig": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.buildOptimizer": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.vendorChunk": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.namedChunks": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.port": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.options.publicHost": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.buildTarget": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.defaultConfiguration": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.port": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.watch": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.development.buildTarget": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.configurations.production.buildTarget": [
+      "apps/fun_ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.codeCoverage": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/fun_ng-e2e": {
+    "root": [
+      "apps/fun_ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "name": [
+      "apps/fun_ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/fun_ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/fun_ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/fun_ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "apps/fun_ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/fun_ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "apps/fun_ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.fun_ng": [
+      "apps/fun_ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/fun_ng-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
   "apps/shell": {
     "root": [
       "apps/shell/project.json",
