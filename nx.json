@@ -1,0 +1,9 @@
+{
+  "installation": {
+    "version": "20.4.6",
+    "plugins": {
+      "@nx/angular": "20.4.6",
+      "@nx/react": "20.4.6"
+    }
+  }
+}

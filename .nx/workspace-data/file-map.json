@@ -2,54 +2,24 @@
   "version": "6.0",
   "nxVersion": "20.4.6",
   "pathMappings": {},
-  "nxJsonPlugins": [
-    {
-      "name": "@nx/cypress/plugin",
-      "options": {
-        "targetName": "e2e",
-        "openTargetName": "open-cypress",
-        "componentTestingTargetName": "component-test",
-        "ciTargetName": "e2e-ci"
-      }
-    },
-    {
-      "name": "@nx/eslint/plugin",
-      "options": {
-        "targetName": "lint"
-      }
-    },
-    {
-      "name": "@nx/vite/plugin",
-      "options": {
-        "buildTargetName": "build",
-        "testTargetName": "test",
-        "serveTargetName": "serve",
-        "devTargetName": "dev",
-        "previewTargetName": "preview",
-        "serveStaticTargetName": "serve-static",
-        "typecheckTargetName": "typecheck",
-        "buildDepsTargetName": "build-deps",
-        "watchDepsTargetName": "watch-deps"
-      }
-    }
-  ],
+  "nxJsonPlugins": [],
   "fileMap": {
     "nonProjectFiles": [
       {
-        "file": ".gitignore",
-        "hash": "10979392895813198183"
-      },
-      {
         "file": ".nx/nxw.js",
-        "hash": "11301648124127104610"
+        "hash": "11254603345854076312"
       },
       {
-        "file": ".prettierignore",
-        "hash": "5407418692668764289"
+        "file": ".gitignore",
+        "hash": "3453444336285165632"
       },
       {
-        "file": ".prettierrc",
-        "hash": "16267754514737964994"
+        "file": "nx.bat",
+        "hash": "16119536321561623970"
+      },
+      {
+        "file": "nx",
+        "hash": "17165975525224888679"
       },
       {
         "file": "LICENSE",
@@ -57,318 +27,17 @@
       },
       {
         "file": "README.md",
-        "hash": "3369153148348368113"
-      },
-      {
-        "file": "eslint.config.mjs",
-        "hash": "3462096019013144053"
-      },
-      {
-        "file": "jest.config.ts",
-        "hash": "3494843969422251966"
-      },
-      {
-        "file": "jest.preset.js",
-        "hash": "9430166341120122740"
-      },
-      {
-        "file": "nx",
-        "hash": "17165975525224888679"
-      },
-      {
-        "file": "nx.bat",
-        "hash": "16119536321561623970"
+        "hash": "11933321368682903910"
       },
       {
         "file": "nx.json",
-        "hash": "9202689454090473685"
-      },
-      {
-        "file": "package-lock.json",
-        "hash": "5258055902659652124"
+        "hash": "417815033400760395"
       },
       {
         "file": "package.json",
-        "hash": "2921077459694553175"
-      },
-      {
-        "file": "tsconfig.base.json",
-        "hash": "16936441711144470533"
+        "hash": "2337867829217728126"
       }
     ],
-    "projectFileMap": {
-      "fun-react": [
-        {
-          "file": "apps/fun-react/eslint.config.mjs",
-          "hash": "8789163670399984295",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "apps/fun-react/index.html",
-          "hash": "17163807321230100462"
-        },
-        {
-          "file": "apps/fun-react/jest.config.ts",
-          "hash": "9129238431068875665"
-        },
-        {
-          "file": "apps/fun-react/project.json",
-          "hash": "18180178488622288206"
-        },
-        {
-          "file": "apps/fun-react/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/fun-react/src/app/app.module.scss",
-          "hash": "8887387885984320532"
-        },
-        {
-          "file": "apps/fun-react/src/app/app.spec.tsx",
-          "hash": "15554588731927758405"
-        },
-        {
-          "file": "apps/fun-react/src/app/app.tsx",
-          "hash": "13923028113056705624"
-        },
-        {
-          "file": "apps/fun-react/src/app/nx-welcome.tsx",
-          "hash": "2348102959109701629"
-        },
-        {
-          "file": "apps/fun-react/src/assets/.gitkeep",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/fun-react/src/main.tsx",
-          "hash": "6494962159756833686",
-          "deps": [
-            "npm:react",
-            "npm:react-dom"
-          ]
-        },
-        {
-          "file": "apps/fun-react/src/styles.scss",
-          "hash": "5195668842064076916"
-        },
-        {
-          "file": "apps/fun-react/tsconfig.app.json",
-          "hash": "14768608741124992156"
-        },
-        {
-          "file": "apps/fun-react/tsconfig.json",
-          "hash": "824604371006306276"
-        },
-        {
-          "file": "apps/fun-react/tsconfig.spec.json",
-          "hash": "3305260514729189295"
-        },
-        {
-          "file": "apps/fun-react/vite.config.ts",
-          "hash": "16010650755488605605",
-          "deps": [
-            "npm:vite"
-          ]
-        }
-      ],
-      "fun-react-e2e": [
-        {
-          "file": "apps/fun-react-e2e/cypress.config.ts",
-          "hash": "11054092368298641821",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/fun-react-e2e/eslint.config.mjs",
-          "hash": "7267301145493616340",
-          "deps": [
-            "npm:eslint-plugin-cypress"
-          ]
-        },
-        {
-          "file": "apps/fun-react-e2e/project.json",
-          "hash": "13736701477662206514"
-        },
-        {
-          "file": "apps/fun-react-e2e/src/e2e/app.cy.ts",
-          "hash": "8057938724109854203"
-        },
-        {
-          "file": "apps/fun-react-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "apps/fun-react-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/fun-react-e2e/src/support/commands.ts",
-          "hash": "6408592624158157338"
-        },
-        {
-          "file": "apps/fun-react-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "apps/fun-react-e2e/tsconfig.json",
-          "hash": "10740392072068377465"
-        }
-      ],
-      "fun-ng": [
-        {
-          "file": "apps/fun-ng/eslint.config.mjs",
-          "hash": "16756400681144203361",
-          "deps": [
-            "npm:@nx/eslint-plugin"
-          ]
-        },
-        {
-          "file": "apps/fun-ng/jest.config.ts",
-          "hash": "848105343438756155"
-        },
-        {
-          "file": "apps/fun-ng/project.json",
-          "hash": "587186344034644995"
-        },
-        {
-          "file": "apps/fun-ng/public/favicon.ico",
-          "hash": "9303420814833116677"
-        },
-        {
-          "file": "apps/fun-ng/src/app/app.component.html",
-          "hash": "11987652264972370457"
-        },
-        {
-          "file": "apps/fun-ng/src/app/app.component.scss",
-          "hash": "3244421341483603138"
-        },
-        {
-          "file": "apps/fun-ng/src/app/app.component.spec.ts",
-          "hash": "14530502309332668329",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/fun-ng/src/app/app.component.ts",
-          "hash": "8302284791708526183",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/fun-ng/src/app/app.config.ts",
-          "hash": "17952677158253203518",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/fun-ng/src/app/app.routes.ts",
-          "hash": "6185150965714414910",
-          "deps": [
-            "npm:@angular/router"
-          ]
-        },
-        {
-          "file": "apps/fun-ng/src/app/nx-welcome.component.ts",
-          "hash": "3673306063114719173",
-          "deps": [
-            "npm:@angular/core",
-            "npm:@angular/common"
-          ]
-        },
-        {
-          "file": "apps/fun-ng/src/index.html",
-          "hash": "9133875288804958467"
-        },
-        {
-          "file": "apps/fun-ng/src/main.ts",
-          "hash": "16635586463787978962",
-          "deps": [
-            "npm:@angular/platform-browser"
-          ]
-        },
-        {
-          "file": "apps/fun-ng/src/styles.scss",
-          "hash": "5195668842064076916"
-        },
-        {
-          "file": "apps/fun-ng/src/test-setup.ts",
-          "hash": "1917999429567095215",
-          "deps": [
-            "npm:jest-preset-angular"
-          ]
-        },
-        {
-          "file": "apps/fun-ng/tsconfig.app.json",
-          "hash": "8365644956319658761"
-        },
-        {
-          "file": "apps/fun-ng/tsconfig.editor.json",
-          "hash": "1055794200401717100"
-        },
-        {
-          "file": "apps/fun-ng/tsconfig.json",
-          "hash": "6424220500541951295"
-        },
-        {
-          "file": "apps/fun-ng/tsconfig.spec.json",
-          "hash": "2927375835638640771"
-        }
-      ],
-      "fun-ng-e2e": [
-        {
-          "file": "apps/fun-ng-e2e/cypress.config.ts",
-          "hash": "5697197382788451887",
-          "deps": [
-            "npm:@nx/cypress",
-            "npm:cypress"
-          ]
-        },
-        {
-          "file": "apps/fun-ng-e2e/eslint.config.mjs",
-          "hash": "7267301145493616340",
-          "deps": [
-            "npm:eslint-plugin-cypress"
-          ]
-        },
-        {
-          "file": "apps/fun-ng-e2e/project.json",
-          "hash": "4960150626019381677"
-        },
-        {
-          "file": "apps/fun-ng-e2e/src/e2e/app.cy.ts",
-          "hash": "14488271511965483967"
-        },
-        {
-          "file": "apps/fun-ng-e2e/src/fixtures/example.json",
-          "hash": "11785586596216172004"
-        },
-        {
-          "file": "apps/fun-ng-e2e/src/support/app.po.ts",
-          "hash": "11157016311132186162"
-        },
-        {
-          "file": "apps/fun-ng-e2e/src/support/commands.ts",
-          "hash": "6408592624158157338"
-        },
-        {
-          "file": "apps/fun-ng-e2e/src/support/e2e.ts",
-          "hash": "1054106023200826784"
-        },
-        {
-          "file": "apps/fun-ng-e2e/tsconfig.json",
-          "hash": "4332380883180617610"
-        }
-      ]
-    }
+    "projectFileMap": {}
   }
 }
