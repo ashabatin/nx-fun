@@ -1,0 +1,1474 @@
+{
+  "apps/fun-ng-e2e": {
+    "root": [
+      "apps/fun-ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/fun-ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI)": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).0": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).1": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.options": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.cache": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.inputs": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.outputs": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.parallelism": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.configurations": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.executor": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.options.cwd": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.options.command": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.configurations.production": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.configurations.production.command": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.technologies": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.technologies.0": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.description": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.help": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.help.command": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.help.example": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.outputs": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.inputs": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.cache": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.options": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.parallelism": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.executor": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.options.cwd": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.options.command": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.technologies": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.technologies.0": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.description": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help.command": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help.example": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.executor": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.cache": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.inputs": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.outputs": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.dependsOn": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.parallelism": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies.0": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.description": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.nonAtomizedTarget": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.help": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.command": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.example": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.options": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.executor": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.options.cwd": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.options.command": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.technologies": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.technologies.0": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.description": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.help": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.help.command": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.help.example": [
+      "apps/fun-ng-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.lint": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/fun-ng-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/fun-ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/fun-ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/fun-ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "apps/fun-ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/fun-ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "apps/fun-ng-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.fun-ng": [
+      "apps/fun-ng-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "apps/fun-react-e2e": {
+    "root": [
+      "apps/fun-react-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/fun-react-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "metadata.targetGroups": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI)": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).0": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "metadata.targetGroups.E2E (CI).1": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.options": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.cache": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.inputs": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.outputs": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.parallelism": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.configurations": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.executor": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.options.cwd": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.options.command": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.configurations.production": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.configurations.production.command": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.technologies": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.technologies.0": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.description": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.help": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.help.command": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e.metadata.help.example": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.outputs": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.inputs": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.cache": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.options": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.parallelism": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.executor": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.options.cwd": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.options.command": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.technologies": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.technologies.0": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.description": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help.command": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci--src/e2e/app.cy.ts.metadata.help.example": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.executor": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.cache": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.inputs": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.outputs": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.dependsOn": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.parallelism": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.technologies.0": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.description": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.nonAtomizedTarget": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.help": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.command": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.e2e-ci.metadata.help.example": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.options": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.executor": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.options.cwd": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.options.command": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.technologies": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.technologies.0": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.description": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.help": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.help.command": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.open-cypress.metadata.help.example": [
+      "apps/fun-react-e2e/cypress.config.ts",
+      "@nx/cypress/plugin"
+    ],
+    "targets.lint": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/fun-react-e2e/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/fun-react-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/fun-react-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/fun-react-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "// targets": [
+      "apps/fun-react-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/fun-react-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies": [
+      "apps/fun-react-e2e/project.json",
+      "nx/core/project-json"
+    ],
+    "implicitDependencies.fun-react": [
+      "apps/fun-react-e2e/project.json",
+      "nx/core/project-json"
+    ]
+  },
+  "apps/fun-ng": {
+    "root": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/fun-ng/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "name": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "projectType": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "prefix": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.executor": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.outputs": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.defaultConfiguration": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.outputPath": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.index": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.browser": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.polyfills": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.tsConfig": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.inlineStyleLanguage": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.assets": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.styles": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.options.scripts": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.budgets": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.production.outputHashing": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.optimization": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.extractLicenses": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build.configurations.development.sourceMap": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.executor": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.defaultConfiguration": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.production.buildTarget": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve.configurations.development.buildTarget": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.executor": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.extract-i18n.options.buildTarget": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.executor": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.executor": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.port": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.staticFilePath": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.serve-static.options.spa": [
+      "apps/fun-ng/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.lint.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.lint.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.dependsOn": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.build.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.codeCoverage": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  },
+  "apps/fun-react": {
+    "root": [
+      "apps/fun-react/project.json",
+      "nx/core/project-json"
+    ],
+    "targets": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.cache": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.inputs": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.outputs": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.executor": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.cwd": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.options.command": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.technologies.0": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.description": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.command": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "targets.lint.metadata.help.example": [
+      "apps/fun-react/eslint.config.mjs",
+      "@nx/eslint/plugin"
+    ],
+    "projectType": [
+      "apps/fun-react/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.build": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.cache": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.dependsOn": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.inputs": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.outputs": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.executor": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.cwd": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.options.command": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.technologies.0": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.description": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help.command": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build.metadata.help.example": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.executor": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.cwd": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.options.command": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.technologies.0": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.description": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.command": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.help.example": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve.metadata.deprecated": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.executor": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.cwd": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.options.command": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.technologies.0": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.description": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.command": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.dev.metadata.help.example": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.dependsOn": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.executor": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.cwd": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.options.command": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.technologies.0": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.description": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.command": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.preview.metadata.help.example": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.executor": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.buildTarget": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.serve-static.options.spa": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.cache": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.inputs": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.executor": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.cwd": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.options.command": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.description": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.technologies.0": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.command": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.typecheck.metadata.help.example": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.build-deps.dependsOn": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.dependsOn": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.executor": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "targets.watch-deps.options.command": [
+      "apps/fun-react/vite.config.ts",
+      "@nx/vite/plugin"
+    ],
+    "name": [
+      "apps/fun-react/project.json",
+      "nx/core/project-json"
+    ],
+    "$schema": [
+      "apps/fun-react/project.json",
+      "nx/core/project-json"
+    ],
+    "sourceRoot": [
+      "apps/fun-react/project.json",
+      "nx/core/project-json"
+    ],
+    "tags": [
+      "apps/fun-react/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test": [
+      "apps/fun-react/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.executor": [
+      "apps/fun-react/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.outputs": [
+      "apps/fun-react/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options": [
+      "apps/fun-react/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.options.jestConfig": [
+      "apps/fun-react/project.json",
+      "nx/core/project-json"
+    ],
+    "targets.test.cache": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.inputs": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.options.passWithNoTests": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.ci": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.configurations.ci.codeCoverage": [
+      "nx.json",
+      "nx/target-defaults"
+    ],
+    "targets.test.parallelism": [
+      "nx.json",
+      "nx/target-defaults"
+    ]
+  }
+}
