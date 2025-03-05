@@ -7,7 +7,7 @@
     "nonProjectFiles": [
       {
         "file": ".gitignore",
-        "hash": "3453444336285165632"
+        "hash": "2718660089057214962"
       },
       {
         "file": ".nx/nxw.js",
@@ -35,11 +35,11 @@
       },
       {
         "file": "package-lock.json",
-        "hash": "4828838014009835567"
+        "hash": "234878490535465281"
       },
       {
         "file": "package.json",
-        "hash": "1542070632410813625"
+        "hash": "15103465593199315006"
       }
     ],
     "projectFileMap": {}
